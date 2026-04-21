@@ -1,13 +1,13 @@
 {
   "name": "AFK Bot",
   "bot-account": {
-    "username": "Slobot00",
+    "username": "AFK-BOT",
     "password": "",
     "type": "offline"
   },
   "server": {
-    "ip": "slobtest1.aternos.me",
-    "port": 27586,
+    "ip": "SSurvivalsmp.aternos.me",
+    "port": 34368,
     "version": "",
     "try-creative": false
   },
@@ -28,12 +28,10 @@
     },
     "chat-messages": {
       "enabled": true,
-      "repeat": true,
-      "repeat-delay": 120,
+      "repeat": false,
+      "repeat-delay": 1000000000000000000,
       "messages": [
-        "I'm a regular player",
-        "Subscribe to Slobos!",
-        "I like to play Minecraft!"
+        "I'm a bot -- Keeping the server 24/7",
       ]
     },
     "chat-log": true,
@@ -60,7 +58,7 @@
   "modules": {
     "avoidMobs": true,
     "combat": true,
-    "beds": false,
+    "beds": true,
     "chat": true,
     "console-commands": true
   },
@@ -69,8 +67,8 @@
     "auto-eat": true
   },
   "beds": {
-    "pick-up-day": false,
-    "place-night": false
+    "pick-up-day": true,
+    "place-night": true
   },
   "discord": {
     "enabled": false,
