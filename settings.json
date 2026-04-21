@@ -31,7 +31,7 @@
       "repeat": false,
       "repeat-delay": 1000000000000000000,
       "messages": [
-        "I'm a bot -- Keeping the server 24/7",
+        "I'm a bot -- Keeping the server 24/7"
       ]
     },
     "chat-log": true,
